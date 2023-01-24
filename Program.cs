@@ -19,7 +19,7 @@ string[] arr1 = new string[arr.Length]; // Задали 2 массив сора�
 
 int count = 0; // Переменная счетчик
 
-for (int i = 0; i < arr.Length; i++) // Цикл подсчета
+for (int i = 0; i < arr.Length; i++) // Цикл счетчик
 {
     if(arr[i].Length <= 3)
     {
