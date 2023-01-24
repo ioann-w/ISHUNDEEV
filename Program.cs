@@ -11,3 +11,8 @@
 ["Russia", "Denmark", "Kazan"] -> []
 */
 
+Console.Clear();
+
+string[] arr = {"hello", "ok?", "bye"}; // Задали 1 массив строк
+
+string[] arr1 = new string[arr.Length]; // Задали 2 массив соразмерный длине 1му, для счета
