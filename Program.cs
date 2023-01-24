@@ -15,9 +15,9 @@ Console.Clear();
 
 string[] arr = {"hello", "ok?", "bye"}; // Задали 1 массив строк
 
-string[] arr1 = new string[arr.Length]; // Задали 2 массив соразмерный длине 1му, для счета
+string[] arr1 = new string[arr.Length]; // Задали 2 массив соразмерный длине 1му, для хранения корректных значений
 
-int count = 0; // Переменная счетчик
+int count = 0; // Переменная счетчик значения
 
 for (int i = 0; i < arr.Length; i++) // Цикл счетчик
 {
@@ -27,8 +27,6 @@ for (int i = 0; i < arr.Length; i++) // Цикл счетчик
     count++;
     }
 }
-
-
 
 for (int i = 0; i < arr1.Length; i++) // Выводим результат в консоль
 {
