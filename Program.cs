@@ -16,3 +16,14 @@ Console.Clear();
 string[] arr = {"hello", "ok?", "bye"}; // Задали 1 массив строк
 
 string[] arr1 = new string[arr.Length]; // Задали 2 массив соразмерный длине 1му, для счета
+
+int count = 0; // Переменная счетчик
+
+for (int i = 0; i < arr.Length; i++) // Цикл подсчета
+{
+    if(arr[i].Length <= 3)
+    {
+    arr1[count] = arr[i];
+    count++;
+    }
+}
