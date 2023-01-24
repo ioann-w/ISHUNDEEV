@@ -27,3 +27,12 @@ for (int i = 0; i < arr.Length; i++) // Цикл счетчик
     count++;
     }
 }
+
+
+
+for (int i = 0; i < arr1.Length; i++) // Выводим результат в консоль
+{
+    Console.Write($"{arr1[i]} ");
+}
+
+Console.WriteLine();
